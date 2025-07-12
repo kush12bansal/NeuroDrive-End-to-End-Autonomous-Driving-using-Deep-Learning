@@ -21,7 +21,7 @@ A deep learning-based autonomous driving system that predicts vehicle steering a
 
 The architecture follows a CNN-based regression approach:
 
-- 5 Convolutional Layers with ELU activation
+- 4 Convolutional Layers with ELU activation
 - Stride-based downsampling `(2,2)`
 - Fully Connected Layers
 - Output Layer: Single neuron for continuous steering angle prediction
@@ -82,5 +82,3 @@ The `drive.py` file implements a real-time server using Flask and SocketIO that:
 4. Calculates throttle based on speed
 5. Sends control signals back to the simulator
 
-```python
-throttle = 1.0 - speed / speed_limit
