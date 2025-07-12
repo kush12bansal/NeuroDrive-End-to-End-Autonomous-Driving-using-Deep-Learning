@@ -82,3 +82,40 @@ The `drive.py` file implements a real-time server using Flask and SocketIO that:
 4. Calculates throttle based on speed
 5. Sends control signals back to the simulator
 
+
+Certainly! Here's the **README-ready format** for the two new sections:
+
+---
+
+## 🛠️ How to Run Locally
+
+Follow the steps below to run the project on your local machine:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/NeuroDrive.git
+cd NeuroDrive
+
+# 2. (Optional but recommended) Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate        # On Windows use: venv\Scripts\activate
+
+# 3. Install required dependencies
+pip install -r requirements.txt
+
+# 4. (Optional) Train the model
+python train.py
+
+# 5. Run the drive script and connect to the simulator
+python drive.py
+```
+
+> ⚠️ **Note:** Ensure the Udacity Self-Driving Car Simulator is running and set to **Autonomous Mode**, and listens on port `4567`.
+
+---
+
+## 📚 References
+
+* **NVIDIA End-to-End Deep Learning for Self-Driving Cars**
+  🔗 [Blog Summary](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/)
+  📄 [Research Paper (PDF)](https://arxiv.org/pdf/1604.07316.pdf)
