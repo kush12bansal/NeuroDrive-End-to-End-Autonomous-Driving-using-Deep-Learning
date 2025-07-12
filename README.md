@@ -93,8 +93,7 @@ Follow the steps below to run the project on your local machine:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/NeuroDrive.git
-cd NeuroDrive
+git clone https://github.com/kush12bansal/NeuroDrive-End-to-End-Autonomous-Driving-using-Deep-Learning.git
 
 # 2. (Optional but recommended) Create and activate a virtual environment
 python -m venv venv
@@ -110,7 +109,7 @@ python train.py
 python drive.py
 ```
 
-> ⚠️ **Note:** Ensure the Udacity Self-Driving Car Simulator is running and set to **Autonomous Mode**, and listens on port `4567`.
+⚠️ **Note:** Ensure the Udacity Self-Driving Car Simulator is running and set to **Autonomous Mode**, and listens on port `4567`.
 
 ---
 
